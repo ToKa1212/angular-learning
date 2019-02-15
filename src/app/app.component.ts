@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {ProductService} from './services/product.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <h1>{{title}}</h1>
+    <app-products></app-products>
+  `,
+  providers: [ProductService]
 })
 export class AppComponent {
-  title = 'PROJECT-NAME';
+  title = 'My Second Angular App';
 }
