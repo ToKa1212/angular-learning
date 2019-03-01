@@ -10,10 +10,13 @@
       <h4 class="media-heading">
         {{data.productName}}
       </h4>
-      <button name="btn"
-        class="btn btn-primary"
-        [class.disabled]="!isValid">Buy
-      </button>
+      <a target="_blank"
+         href="{{data.urlBuy}}">
+        <button name="btn"
+                class="btn btn-primary"
+                [class.disabled]="!isValid">Buy
+        </button>
+      </a>
       {{data.releaseDate}}
       <app-rating
         [rating-value]="data.rating">
