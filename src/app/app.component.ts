@@ -7,8 +7,7 @@ import {ProductService} from './services/product.service';
   providers: [ProductService]
 })
 export class AppComponent {
-  title = 'My Second Angular App';
-  imageUrl = 'https://s2.coinmarketcap.com/static/img/coins/64x64/52.png';
-  isValid = true;
+  title = 'My Second Angular Project';
+  // isValid = true;
 }
 

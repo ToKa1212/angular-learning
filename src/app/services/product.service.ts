@@ -10,8 +10,8 @@ export class ProductService {
         imageUrl: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1.png',
         productName: 'Bitcoin',
         releaseDate: 'April 28, 2013',
-        description: 'Stara kurva',
-        rating: 0,
+        description: 'proof of work',
+        rating: 1,
         numOfreviews: 3,
         url: 'https://coinmarketcap.com/currencies/bitcoin/'
       },
@@ -19,8 +19,8 @@ export class ProductService {
         imageUrl: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1027.png',
         productName: 'Ethereum',
         releaseDate: 'August 07, 2015',
-        description: 'Novsia kurva',
-        rating: 1,
+        description: 'Proof of stake',
+        rating: 3,
         numOfreviews: 4,
         url: 'https://coinmarketcap.com/currencies/ethereum/'
       },
@@ -28,7 +28,7 @@ export class ProductService {
         imageUrl: 'https://s2.coinmarketcap.com/static/img/coins/32x32/52.png',
         productName: 'XRP',
         releaseDate: 'August 04, 2013',
-        description: 'Mega super digitalna jednotka',
+        description: 'proof of consensus ',
         rating: 5,
         numOfreviews: 55,
         url: 'https://coinmarketcap.com/currencies/ripple/'

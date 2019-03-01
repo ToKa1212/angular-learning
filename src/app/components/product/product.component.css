@@ -4,3 +4,7 @@
 .media-object{
   margin-left: 20px;
 }
+.btn {
+  float:right;
+  margin-right:100px;
+}
