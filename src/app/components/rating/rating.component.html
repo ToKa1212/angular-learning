@@ -1,0 +1,10 @@
+<div>
+  <app-rating-star
+    *ngFor="let starItem of ratings; let i=index"
+    [star]="starItem.star"
+    (mouseenter)="onMouseEnter(i)"
+    (mouseleave)="onMouseLeave(i)"
+  ></app-rating-star>
+</div>
+
+

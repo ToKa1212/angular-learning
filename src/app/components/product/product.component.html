@@ -1,0 +1,22 @@
+<div class="media">
+  <div class="media-left">
+    <a target="_blank"
+      href="{{data.url}}">
+      <img class="media-object" src="{{data.imageUrl}}">
+    </a>
+  </div>
+  <div class="media-body">
+    <div class="media-body">
+      <h4 class="media-heading">
+        {{data.productName}}
+      </h4>
+      {{data.releaseDate}}
+      <app-rating
+        [rating-value]="data.rating">
+      </app-rating>
+      <br>
+      {{data.description}}
+    </div>
+  </div>
+</div>
+

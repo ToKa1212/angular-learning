@@ -1,9 +1,6 @@
 <div>
-<!--h2 Products is separated from the logic, its just for rendering the DOM-->
   <h2>Products</h2>
-  <ul>
-    <li *ngFor="let product of products">
-      {{product}}
-    </li>
-  </ul>
+  <div *ngFor="let product of products">
+    <app-product [data]="product"></app-product>
+  </div>
 </div>
