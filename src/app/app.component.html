@@ -1,6 +1,50 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<style>
+  button {
+    background-color: #333333;
+    border: 0px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: grid;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111111;
+    color: deepskyblue;
+  }
+</style>
+
 <div style="text-align:left">
-  <h1 style="text-align:center;font-weight: bold">{{title}}</h1>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="https://coinmarketcap.com/charts/">Marketcap</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <span>
+    <button class="btn-primary"
+            onclick="document.getElementById('time').innerHTML = Date()">
+      Click to display Date and Time.
+    </button>
+    <span id="time" style="float: right"></span>
+  </span>
+  <h1 style="text-align:center;font-weight: bold"><span>{{title}}</span></h1>
   <app-products></app-products>
   <img src="{{imageUrl}}"/>
 </div>
